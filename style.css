@@ -1,0 +1,89 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  background-color: lightcyan;
+  padding-bottom: 50px;
+  
+}
+.input-group-text{
+  color:whitesmoke;
+  background-color: rgb(98, 173, 223);
+  
+}
+textarea{
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.jumbotron {
+  text-align: center;
+  color: lightyellow;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+  background-image: url("https://lh3.googleusercontent.com/sRdhd3Cd721UVwuhcHMsfxXWWMQDP_2RhF-85LiUj4F1VMNS8iNh3e5STneb7iTTGExlVTBpSDYIt1OqBmtdzXuC1aP_PvQos07aFFdkn6TvuwEyUsZH9TeWiKaEwutNWOFD2eQpIX9E7hMIS4L-9rVV4_5A6aTQJ5vGt6s0tAl1H44ENjM9TQdAtM-W7iljx-nBZNMR--PwoP4MiNkpFuv3yLpdyviNpjzmw_IETiccN4ATedlJ8He06goDSmHVBfRWNJypGoMh6pYtg1RNvioeqVSduPJJzOpg1zTd43S7RY_c0jw0l2z1bERN0zPKyOEGmUlJEMjvymp6ozugjI1h1tsMeDhALQzWGwvjB1DcjkYCfcFi2M-ulfYqll8z8EbvggWaVc4dTnjiIdfnbwVN2yTyf7T2ulO0oR_xbdQvkQ4cqgasSC1rTdNL-OaneyXzQV0tpyG_cJaxNhnfPc802aBsLkUbMhoBQ8Jn7zTGavLNXDZxCOPEs3mvPq6BNCIDp9BXqogU3dniIp9qtQJnQh009Zqd8Y6LyxviF1r4B7UlJyYDwvBZPNxD27uXAZSMbtWd-T2tKzwlDoRWomjZTvy0gE49FQhdCLNajEt8A5DnohN3iwy1ToFwMSh43vygFRujcNDJCQsvCKc_Z-ucYkqLMxEOfeAdw0kNr8BZXmuttJmMrz_KgwEFYg=w1627-h969-no");
+  background-position: 70%;
+  background-size: 100% ;
+  
+}
+
+.description{
+  white-space: pre-wrap;
+}
+
+.time-block{
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;;
+}
+
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
+
+.past {
+  background-color: lightyellow;
+  color: black;
+}
+
+.present {
+  background-color: #e07f79;
+  color:black;
+}
+
+.future {
+  background-color: #af66c2;
+  color:black;
+}
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06AED5;
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+#currentDay{
+  color: #ff73e5
+}
+
+footer{
+  padding-top: 20px;
+}
