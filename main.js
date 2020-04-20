@@ -44,6 +44,7 @@ $(document).ready(function () {
     let scheduleInput = $(this).parent().attr("id");
     let scheduler = localStorage.getItem(scheduleInput);
     $(this).val(scheduler)
+    console.log(scheduler)
     
   })
 

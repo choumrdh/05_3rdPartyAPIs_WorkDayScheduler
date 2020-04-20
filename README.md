@@ -1,9 +1,14 @@
-# 05_3rdPartyAPIs_WorkDayScheduler
+# 05_3rdPartyAPIs_WorkDayScheduler :calendar:
 * https://choumrdh.github.io/05_3rdPartyAPIs_WorkDayScheduler/
 
-* A simple calendar for scheduling your work day.
+* :pushpin: A simple calendar application that allow user to save events for each hour of the day.
 
-
+### User Story :speech_balloon:
+```
+AS AN employee with a busy schedule
+I WANT to add important events to a daily planner
+SO THAT I can manage my time effectively
+```
 
 ### Acceptance Criteria
 - GIVEN I am using a daily planner to create a schedule
@@ -19,3 +24,8 @@
 - THEN the text for that event is saved in local storage
 - WHEN I refresh the page
 - THEN the saved events persist
+
+### Libraries used:
+- Bootstrap
+- Jquery 
+- Moment.js
